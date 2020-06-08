@@ -14,6 +14,11 @@
     </extensions>
 
     <actions>
-
+        <group id="Jetpackify" text="JetPackify" description="Adds jetPack room dependencies">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action class="io.github.farhad.jetpackify.AddRoomDependenciesAction"
+                    id="JetPackify.AddRoomDeps"
+                    text="Add Room Database"/>
+        </group>
     </actions>
 </idea-plugin>

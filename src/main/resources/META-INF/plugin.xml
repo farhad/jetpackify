@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>io.github.farhad.jetpackify</id>
+    <name>JetPackify</name>
+    <vendor email="ifarhadfaghihi@gmail.com" url="http://github.com/farhad/jetpackify">Farhad's Github</vendor>
+    <version>1.0.0</version>
+    <description><![CDATA[
+    A plugin to add jetpack and architecture dependencies to your Android project
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <actions>
+
+    </actions>
+</idea-plugin>
